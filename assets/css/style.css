@@ -134,6 +134,87 @@
   grid-area: home;
 }
 
+.home h1 {
+  width: 786px;
+  height: 54px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #ED7839;
+  padding: 19px 0px;
+  margin: 0 auto;
+}
+
+.video {
+  width: 783px;
+  height: 439px;
+  background-image: url(../img/video.png);
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+.video:before {
+  content: '';
+  width: 783px;
+  height: 439px;
+  position: absolute;
+  background: rgba(141, 53, 6, 0.5);
+  border-radius: 3px;
+}
+
+.video h2 {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  padding: 35px 17px 0 32px;
+}
+
+.scientist img {
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid #ED7839;
+  margin-right: 17px;
+  padding: 3px;
+}
+
+.scientist {
+  display: flex;
+  margin: 190px 0px 0px 30px;
+  align-items: center;
+}
+
+.scientist p{
+  position: relative;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+ }
+
+ .scientist span {
+  position: relative;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  padding-left: 3px;
+}
+
 .details {
   grid-area: aside;
 }
